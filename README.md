@@ -1,18 +1,23 @@
-# Rental Reservation System 🏠🚗
+# 📆 Système de Réservation Multilangage
 
-Un système de réservation d'objets louables (voitures, immobilier, etc.) avec des règles de validation et implémenté en 4 langages.
+Ce projet implémente un système de réservation d’objets louables (voitures, assiettes, biens immobiliers…) dans **4 langages de programmation** différents :
 
-## Règles Métier
-- Réservation minimale : 1 jour.
-- Un objet ne peut pas être réservé pendant une période déjà occupée.
-- Erreurs à gérer :
-  - `ERR_DURATION_TOO_SHORT` : Durée < 1 jour.
-  - `ERR_OVERLAPPING_RESERVATION` : Dates déjà réservées.
-  - `ERR_ITEM_NOT_FOUND` : Objet inexistant.
+- 🟦 Java  
+- 🟨 TypeScript  
+- 🟨 JavaScript  
+- 🐍 Python  
 
-## Branches Disponibles
-- `main` : Documentation et structure de base.
+Chaque implémentation permet de :
+- Ajouter des objets à louer
+- Réserver un objet pour une période donnée (en **jours**, avec un **minimum de 1 jour**)
+- Empêcher les réservations qui **chevauchent** une période déjà réservée
+- Voir les erreurs lorsqu’on tente une réservation invalide
 
-## Comment Contribuer
-1. Choisissez une branche : `git checkout nom-branche`.
-2. Suivez les instructions du dossier de la branche.
+---
+
+## 🔧 Fonctionnalités communes
+
+- ✅ Réservation avec date de début et durée (en jours)
+- ⛔ Refus automatique des réservations en conflit
+- ❗ Durée minimale d’une réservation : **1 jour**
+- 📆 Un objet est indisponible pendant toute la durée de sa réservation
