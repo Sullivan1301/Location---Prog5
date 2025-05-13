@@ -13,21 +13,17 @@ export class ReservationService {
     }
 
     reserve(itemName: string, startDate: Date, duration: number): void {
-        // Vérifier si l'objet existe
         const item = this.items.get(itemName);
         if (!item) {
             throw new Error('ERR_ITEM_NOT_FOUND');
         }
 
-        // Vérifier la durée minimale
         if (duration < 1) {
             throw new Error('ERR_DURATION_TOO_SHORT');
         }
 
-        // Créer la nouvelle réservation
         const newReservation = new Reservation(item, startDate, duration);
 
-        // Vérifier les conflits
         const hasConflict = this.reservations.some(reservation =>
             reservation.item.name === itemName &&
             reservation.overlaps(newReservation)
@@ -37,7 +33,6 @@ export class ReservationService {
             throw new Error('ERR_OVERLAPPING_RESERVATION');
         }
 
-        // Ajouter la réservation
         this.reservations.push(newReservation);
     }
 
