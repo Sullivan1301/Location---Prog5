@@ -27,28 +27,23 @@ class ReservationService {
     }
 
     reserve(name, startDate, duration) {
-        // Validate duration
         if (duration < 1) {
             throw new Error("ERR_DURATION_TOO_SHORT");
         }
 
-        // Check if item exists
         const item = this.items.get(name);
         if (!item) {
             throw new Error("ERR_ITEM_NOT_FOUND");
         }
 
-        // Create new reservation
         const newReservation = new Reservation(item, startDate, duration);
 
-        // Check for overlapping reservations
         for (const reservation of item.reservations) {
             if (this.isOverlapping(newReservation, reservation)) {
                 throw new Error("ERR_OVERLAPPING_RESERVATION");
             }
         }
 
-        // Add the reservation
         item.reservations.push(newReservation);
         return newReservation;
     }
