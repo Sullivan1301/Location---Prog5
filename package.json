@@ -1,0 +1,12 @@
+{
+    "name": "rental-reservation-system",
+    "version": "1.0.0",
+    "description": "A rental reservation system implementation in JavaScript",
+    "main": "ReservationService.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b1dbcd9-a422-4558-8960-0a0591bf00e9" name="Changes" comment="fix: correct reservation overlap logic and update test case date" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sullivan1301&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sullivan1301/Location---Prog5.git&quot;,
+    &quot;accountId&quot;: &quot;6d86d1c9-9b1b-4fd8-9d8b-eec6a61b2c41&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2x2SIyNv6TfdzUE9a2FqBbZECkv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "JUnit.ReservationServiceTest.executor": "Run",
+    "Jest.ReservationService.Réservation qui commence juste après la fin d\\'une autre doit réussir.executor": "Run",
+    "Jest.ReservationService.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/run/media/sullivan/60b7a3e7-b52b-450f-a710-a6937102f2ac/sullivan/HEI/PROG5/Location",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/run/media/sullivan/60b7a3e7-b52b-450f-a710-a6937102f2ac/sullivan/HEI/PROG5/Location/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/run/media/sullivan/60b7a3e7-b52b-450f-a710-a6937102f2ac/sullivan/HEI/PROG5/Location/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Jest.ReservationService">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rental.Main" />
+      <module name="rental-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rental.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rental-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rental.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rental" />
+      <option name="MAIN_CLASS_NAME" value="com.rental.ReservationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationService" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/ReservationService.test.ts" />
+      <test-names>
+        <test-name value="ReservationService" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservationService.Réservation qui commence juste après la fin d\'une autre doit réussir" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ReservationService.test.ts" />
+      <test-names>
+        <test-name value="ReservationService" />
+        <test-name value="Réservation qui commence juste après la fin d\'une autre doit réussir" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.ReservationService" />
+        <item itemvalue="Jest.ReservationService.Réservation qui commence juste après la fin d\'une autre doit réussir" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b1dbcd9-a422-4558-8960-0a0591bf00e9" name="Changes" comment="" />
+      <created>1747134607178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747134607178</updated>
+      <workItem from="1747134620828" duration="343000" />
+      <workItem from="1747135717036" duration="1073000" />
+      <workItem from="1747137840109" duration="680000" />
+      <workItem from="1747151415418" duration="879000" />
+    </task>
+    <task id="LOCAL-00001" summary="add initial project configuration files and .gitignore">
+      <option name="closed" value="true" />
+      <created>1747136137690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136137692</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add initial implementation of rental system with reservation management">
+      <option name="closed" value="true" />
+      <created>1747136215284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136215284</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add reservation management classes and main application logic">
+      <option name="closed" value="true" />
+      <created>1747136249213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136249213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add unit tests for ReservationService functionality">
+      <option name="closed" value="true" />
+      <created>1747136642226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136642227</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add initial project files and configuration">
+      <option name="closed" value="true" />
+      <created>1747151695611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747151695611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add initial project files and configuration">
+      <option name="closed" value="true" />
+      <created>1747151701002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747151701002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: correct reservation overlap logic and update test case date">
+      <option name="closed" value="true" />
+      <created>1747151934341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747151934342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add initial project configuration files and .gitignore" />
+    <MESSAGE value="add initial implementation of rental system with reservation management" />
+    <MESSAGE value="add reservation management classes and main application logic" />
+    <MESSAGE value="add unit tests for ReservationService functionality" />
+    <MESSAGE value="add initial project files and configuration" />
+    <MESSAGE value="fix: correct reservation overlap logic and update test case date" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct reservation overlap logic and update test case date" />
+  </component>
+</project>
