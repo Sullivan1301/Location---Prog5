@@ -25,7 +25,6 @@ public class RentalSystem {
 
         Reservation nouvelleReservation = new Reservation(item, dateDebut, duree);
 
-        // Vérifier les chevauchements
         boolean chevauchement = reservations.stream()
                 .filter(r -> r.getItem().equals(item))
                 .anyMatch(r -> r.chevauche(nouvelleReservation));
