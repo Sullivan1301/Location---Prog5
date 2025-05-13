@@ -5,7 +5,7 @@ export class Reservation {
         public item: Item,
         public startDate: Date,
         public duration: number
-    ) {}
+    ) { }
 
     get endDate(): Date {
         const endDate = new Date(this.startDate);
@@ -15,7 +15,7 @@ export class Reservation {
 
     overlaps(other: Reservation): boolean {
         return (
-            (this.startDate <= other.endDate && this.endDate >= other.startDate)
+            (this.startDate < other.endDate && this.endDate > other.startDate)
         );
     }
 }
